@@ -19,12 +19,12 @@
         <div class="nav-menu d-flex flex-column align-items-center justify-content-center">
             <a href="{{ route('notVerified')}}" class="text-decoration-none w-100 my-1">
                 <div class="nav-item text-white text-start">
-                    <p>Peserta Lomba <span class="btn btn-primary">Menunggu ({{ $notVerif }})</span></p>
+                    <p>Peserta Lomba <span class="btn btn-primary text-white">Menunggu ({{ $notVerif }})</span></p>
                 </div>
             </a>
             <a href="{{ route('verified')}}" class="text-decoration-none w-100 my-1">
                 <div class="nav-item text-white text-start">
-                    <p>Peserta Lomba <span class="btn btn-success">Terverifikasi ({{ $verif }})</span></p>
+                    <p>Peserta Lomba <span class="btn btn-success text-white">Terverifikasi ({{ $verif }})</span></p>
                 </div>
             </a>
         </div>
